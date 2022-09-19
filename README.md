@@ -1,4 +1,5 @@
 # ServerFrontEnd
+A Simple Server Manager Application using  Angula as a frontend part and SpringBoot as a backend part (https://github.com/alichaabane/ServerManager-Backend)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
