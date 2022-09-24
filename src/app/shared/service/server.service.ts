@@ -73,6 +73,10 @@ export class ServerService {
         catchError(this.handleError)
       );
 
+  exportToExcel() {
+    return   this.http.post(`${this.apiUrl}/export-excel`, null,{responseType: 'blob', observe: 'response'});
+  }
+
   handleError(error: HttpErrorResponse): Observable<never> {
     console.log(error);
     return throwError(() => `An error occurred - Error Code : ${error.status}`);
