@@ -1,0 +1,25 @@
+table {
+  --bs-table-striped-bg: white !important;
+}
+
+.ping {
+
+  cursor: pointer;
+  color: black !important;
+}
+
+.ping:hover {
+
+  cursor: pointer;
+  color: royalblue !important;
+}
+
+.delete {
+  cursor: pointer;
+  color: red !important;
+}
+
+.filter {
+  --bs-btn-color: white !important;
+  --bs-btn-hover-color: white !important;
+}
